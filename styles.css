@@ -1,0 +1,27 @@
+html, body {
+    margin-top: 75px;
+    background-color: rgb(233, 233, 233);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 480px;
+}
+
+.box {
+    background-color: rgb(65, 65, 65);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.lightBox {
+    background-color: rgb(163, 163, 163);
+}
